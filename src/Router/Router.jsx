@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         {
             path:"/",
             element:<Home></Home>,
-            loader:()=>fetch('/categories.json')
+            // loader:()=>fetch('/categories.json')
         },
         {
             path:"/login",
@@ -31,9 +31,9 @@ const router = createBrowserRouter([
             element:<Register></Register>
         },
         {
-          path:"/courseDetails/:id",
+          path:"/course/:id",
           element:<PrivateRoute><CourseDetails></CourseDetails></PrivateRoute>,
-          loader:()=>fetch('/categories.json')
+          loader: ({params}) => fetch(`http://localhost:5000/course/${params.id}`)
         },
         {
           path:"/",

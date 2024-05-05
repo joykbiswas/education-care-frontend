@@ -1,9 +1,9 @@
-import { useLoaderData } from "react-router-dom";
+// import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner/Banner";
 import Navbar from "./Navbar/Navbar";
 import EducationCards from "./EducationCards/EducationCards";
 import Category from "./Category/Category";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Author from "./Author/Author";
 import From from "./Form/Form";
 import Sponcer from "./Sponcer/Sponcer";
@@ -12,8 +12,21 @@ import Footer from "./Footer/Footer";
 
 
 const Home = () => {
-    const educations =useLoaderData();
-    // console.log(educations);
+    // const educations =useLoaderData();
+
+    const [educations, setEducations] = useState([]);
+    const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    fetch("http://localhost:5000/course")
+      .then((res) => res.json())
+      .then(data =>{
+        setEducations(data)
+        setLoading(false)
+      });
+  }, []);
+    console.log(educations);
+
+
     const [selectedCategory,setSelectedCategory] = useState(null)
     
     const filteredEducations = selectedCategory === "all" 

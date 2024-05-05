@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
 import { AiFillStar } from 'react-icons/ai';
 import { Link } from "react-router-dom";
+import { FcCalendar } from "react-icons/fc";
+import { IoEarthOutline } from "react-icons/io5";
 
 const EducationCards = ({ education }) => {
-  const { id, title, img ,description, duration, schedule, location, enrollmentStatus, category ,price,rating} = education;
+  const { _id, title, img ,description, duration, location, enrollmentStatus, category ,price,rating} = education;
   console.log(education);
   return (
       <div className=" ">
@@ -16,14 +18,18 @@ const EducationCards = ({ education }) => {
           <div className=" flex-grow card-body">
 
             <h2 className=" card-title">{title}</h2>
-            <h2 className=" ">{category}</h2>
-            <h2>{schedule}</h2>
-            <h3>{enrollmentStatus}</h3>
-            <div>
-              <h2>{duration}</h2>
-              <h2>{location}</h2>
+            <div className="flex justify-between">
+              <h2 className=" ">{category}</h2>
+              <h3> Enroll: {enrollmentStatus}</h3>
+              </div>
+            
+            {/* <h2>{schedule}</h2> */}
+            
+            <div className="flex justify-between">
+              <h2 className="flex items-center gap-2"><FcCalendar />{duration}</h2>
+              <h2 className="flex items-center gap-2"><IoEarthOutline />{location}</h2>
             </div>
-            <div className="" >
+            <div className="">
                 {
                     description.length >130 ?(
                         <p >
@@ -41,7 +47,7 @@ const EducationCards = ({ education }) => {
             <h2 className="text-xl">${price}</h2>
             </div>
             <div className="card-actions justify-end">
-              <Link to={`/courseDetails/${id}`}><button className="btn btn-primary">Details</button></Link>
+              <Link to={`/course/${_id}`}><button className="btn btn-primary">Details</button></Link>
             </div>
           </div>
         </div>
