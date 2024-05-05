@@ -1,0 +1,35 @@
+[
+    {
+        "ID": "001",
+        "Name": "Basic plan",
+        "Features": [
+            "One Online Course",
+            "One E-Book",
+            "1 Hour of Mentorship",
+            "Guided Progress"
+        ],
+        "Price": "$30 "
+    },
+    {
+        "ID": "002",
+        "Name": "Standard",
+        "Features": [
+            "One Online Course",
+            "One E-Book",
+            "1 Hour of Mentorship",
+            "Guided Progress"
+        ],
+        "Price": "$50"
+    },
+    {
+        "ID": "003",
+        "Name": "Proffessional",
+        "Features": [
+            "One Online Course",
+            "One E-Book",
+            "1 Hour of Mentorship",
+            "Guided Progress"
+        ],
+        "Price": "$100"
+    }
+]

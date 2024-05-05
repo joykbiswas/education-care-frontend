@@ -1,0 +1,376 @@
+[
+  {
+    "category": "EducationalConferences",
+    "id": "1",
+    "instructor": "Dr. Emily Chang",
+    "img": "https://i.ibb.co/3NKVWTj/summit.jpg",
+    "title": "Education Summit 2023",
+    "price": 250,
+    "rating": 5,
+    "enrollmentStatus": "Open",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+    "location": "Online",
+    "description": "The Education Summit 2023 is the premier event for educators, administrators, and education enthusiasts. This year's summit will feature an array of inspiring keynote speakers, interactive workshops, and thought-provoking panel discussions. Dive deep into the latest trends and innovations in education, from technology integration to inclusive teaching methods. Join us to connect with fellow educators, share best practices, and gain fresh insights to transform your classroom. Don't miss this opportunity to be part of a global community dedicated to shaping the future of education.",
+
+    "prerequisites": [
+      "EdTech professionals",
+      "Government officials in the education sector",
+      "Education policymakers"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Advanced ML",
+        "content": "Overview of advanced machine learning concepts and applications."
+      },
+      {
+        "week": 2,
+        "topic": "Deep Learning Fundamentals",
+        "content": "Understanding neural networks, activation functions, and backpropagation."
+      }
+    ],
+    "students": [
+      {
+        "id": 101,
+        "name": "Charlie Brown",
+        "email": "charlie@example.com"
+      },
+      {
+        "id": 102,
+        "name": "Diana Smith",
+        "email": "diana@example.com"
+      }
+    ]
+  },
+  {
+    "category": "EducationalConferences",
+    "id": "2",
+    "img": "https://i.ibb.co/FqLGNTW/stem.webp",
+    "title": "STEM Education Symposium",
+    "instructor": "Sarah Johnson",
+    "enrollmentStatus": "Open",
+    "duration": "12 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Interest in STEM fields (Science, Technology, Engineering, Mathematics)", "Basic understanding of educational principles and practices", "Familiarity with current trends and challenges in STEM education"],
+    "price": 180,
+    "rating": 4.4,
+    "description": "The STEM Education Symposium is a must-attend event for anyone passionate about science, technology, engineering, and mathematics education. Explore the latest developments in STEM pedagogy and curriculum design. Engage with renowned researchers and educators who are leading the way in STEM education. Participate in hands-on workshops and gain practical skills for teaching STEM subjects. Whether you're a teacher, a curriculum developer, or an advocate for STEM education, this symposium will equip you with valuable knowledge and resources to inspire the next generation of innovators and problem solvers.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Web Development",
+        "content": "Overview of web development concepts and tools."
+      },
+      {
+        "week": 2,
+        "topic": "HTML and CSS Basics",
+        "content": "Fundamentals of HTML structure and CSS styling."
+      }
+    ],
+    "students": [{
+      "id": 201,
+      "name": "Alice Johnson",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 202,
+      "name": "Bob Smith",
+      "email": "bob@example.com"
+    }]
+  },
+
+  {
+    "category": "EducationalConferences",
+    "id": "3",
+    "img": "https://i.ibb.co/dPymS4q/history-edu.webp",
+    "title": "History Education Symposium",
+    "instructor": "Dr. Michael Rodriguez",
+    "enrollmentStatus": "Open",
+    "duration": "8 weeks",
+  "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+  "location": "Online",
+  "prerequisites": ["Background in history or related field","Interest in educational methodologies", "Basic understanding of historical research methods"],
+    "price": 150,
+    "rating": 4.5,
+    "description": "Step into the past at the History Education Symposium. This symposium is a gathering of history teachers, scholars, and enthusiasts who are dedicated to preserving and sharing the richness of history. Explore innovative approaches to teaching history, from interactive lessons to immersive historical reenactments. Connect with like-minded individuals who are passionate about making history come alive for students. Join us to deepen your understanding of history education and gain practical insights that will make history a captivating subject in your classroom.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Science",
+        "content": "Overview of data science and its applications."
+      },
+      {
+        "week": 2,
+        "topic": "Data Wrangling",
+        "content": "Data cleaning, transformation, and preprocessing techniques."
+      }
+    ],
+    "students": [
+      {
+        "id": 103,
+        "name": "Charlie Brown",
+        "email": "charlie@example.com"
+      },
+      {
+        "id": 104,
+        "name": "Diana Smith",
+        "email": "diana@example.com"
+      }
+    ]
+  },
+
+  {
+    "category": "TrainingPrograms",
+    "id": "4",
+    "img": "https://i.ibb.co/vXbvNC0/data-science-certification-course.jpg",
+    "title": "Data Science Certification",
+    "instructor": "David Lee",
+    "enrollmentStatus": "Open",
+    "duration": "10 weeks",
+  "schedule": "Saturdays, 10:00 AM - 1:00 PM",
+  "location": "Online",
+  "prerequisites": ["Basic Java programming knowledge"],
+    "price": 450,
+    "rating": 4.9,
+    "description": "Unlock the power of data with our Data Science Certification program. Data is the currency of the future, and data scientists are in high demand across industries. In this comprehensive program, you'll learn data analysis, machine learning, data visualization, and more. Our hands-on approach means you'll work with real datasets and use industry-standard tools. By the end of this certification, you'll have the skills to extract actionable insights from data, build predictive models, and make data-driven decisions that impact your organization's success.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Android Development",
+        "content": "Overview of Android platform and development environment setup."
+      },
+      {
+        "week": 2,
+        "topic": "UI Design and Layouts",
+        "content": "Creating user interfaces using XML layouts."
+      }
+    ],
+    "students": [
+      {
+        "id": 105,
+        "name": "Eva Martinez",
+        "email": "eva@example.com"
+      },
+      {
+        "id": 106,
+        "name": "Frank Johnson",
+        "email": "frank@example.com"
+      },
+      {
+        "id": 107,
+        "name": "Grace Lee",
+        "email": "grace@example.com"
+      }
+    ]
+  },
+  {
+    "category": "TrainingPrograms",
+    "id": "5",
+    "img": "https://i.ibb.co/vdVfSS5/project-mang.jpg",
+    "title": "Introduction to Blockchain Technology",
+    "instructor": "Dr. Emily Chang",
+    "enrollmentStatus": "Open",
+  "thumbnail": "your.image.here",
+  "duration": "6 weeks",
+  "schedule": "Fridays, 6:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": ["Basic understanding of computer science concepts"],
+    "price": 300,
+    "rating": 4.5,
+    "description": "Effective project management is the key to delivering projects on time and within budget. Join our Introduction to Blockchain Technology and enhance your project management skills. Whether you're a seasoned project manager or new to the field, this workshop will provide you with practical tools and strategies to successfully plan, execute, and monitor projects. Learn to identify risks, manage stakeholders, and lead project teams to success. With hands-on exercises and case studies, you'll leave this workshop with the confidence to tackle any project.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Machine Learning",
+        "content": "Overview of machine learning concepts and types of learning."
+      },
+      {
+        "week": 2,
+        "topic": "Supervised Learning",
+        "content": "Introduction to supervised learning algorithms."
+      }
+    ],
+    "students": []
+  },
+  {
+    "category": "TrainingPrograms",
+    "id": "6",
+    "img": "https://i.ibb.co/chwJySD/Graphic-Design-Masterclass.jpg",
+    "title": "Graphic Design Masterclass",
+    "instructor": "Emma Watson",
+    "enrollmentStatus": "Open",
+  "thumbnail": "your.image.here",
+  "duration": "8 weeks",
+  "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": ["None"],
+    "price": 280,
+    "rating": 4,
+    "description": "Unleash your creative potential with our Graphic Design Masterclass. Graphic design is an essential skill in today's visual-centric world. Whether you're a beginner or looking to refine your design skills, this masterclass has you covered. Learn design principles, typography, color theory, and the latest design software. Create stunning visuals, logos, and marketing materials. With guidance from industry experts, you'll build a strong design portfolio and be prepared to take on design projects with confidence.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Graphic Design",
+        "content": "Overview of graphic design principles and tools."
+      },
+      {
+        "week": 2,
+        "topic": "Typography Basics",
+        "content": "Understanding typography and its role in design."
+      }
+    ],
+    "students": [
+      {
+        "id": 108,
+        "name": "Henry Davis",
+        "email": "henry@example.com"
+      },
+      {
+        "id": 109,
+        "name": "Isabel Garcia",
+        "email": "isabel@example.com"
+      },
+      {
+        "id": 110,
+        "name": "Jack Wilson",
+        "email": "jack@example.com"
+      }
+    ]
+  },
+  {
+    "category": "Webinars",
+    "id": "7",
+    "img": "https://i.ibb.co/yy2bcMN/web-development.jpg",
+    "title": "Web Development Masterclass",
+    "instructor": "John Smith",
+    "enrollmentStatus": "Open",
+    "duration": "6 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Proficiency in HTML, CSS, and JavaScript", "Experience with front-end and back-end frameworks (e.g., React, Node.js)"],
+
+    "price": 120,
+    "rating": 5,
+    "description": "Join us for a transformative Web Development Masterclass. Whether you're a seasoned developer or just starting your coding journey, this masterclass offers valuable insights and hands-on experiences. Explore the latest web development technologies, including HTML5, CSS3, JavaScript, and responsive design. Dive into front-end and back-end development and learn how to build interactive and responsive websites. Get ready to create web applications and launch your career as a web developer.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Python",
+        "content": "Overview of Python syntax, variables, and data types."
+      },
+      {
+        "week": 2,
+        "topic": "Control Flow Statements",
+        "content": "Using if statements, loops, and control flow in Python."
+      }
+    ],
+    "students": [
+      {
+        "id": 111,
+        "name": "Karen Taylor",
+        "email": "karen@example.com"
+      },
+      {
+        "id": 112,
+        "name": "Liam Anderson",
+        "email": "liam@example.com"
+      },
+      {
+        "id": 113,
+        "name": "Mia Rodriguez",
+        "email": "mia@example.com"
+      }
+    ]
+  },
+  {
+    "category": "Webinars",
+    "id": "8",
+    "img": "https://i.ibb.co/YZH3V4t/Financial-Planning-Workshop.png",
+    "title": "Digital Marketing Essentials",
+    "instructor": "Jessica Brown",
+    "enrollmentStatus": "Open",
+    "duration": "8 weeks",
+    "schedule": "Wednesdays and Fridays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of marketing concepts"],
+    "price": 50,
+    "rating": 4.5,
+    "description": "Secure your financial future with our Digital Marketing Essentials. Financial literacy is essential for everyone, and this workshop is designed to provide you with the knowledge and tools you need. Learn to budget effectively, invest wisely, and plan for retirement. Our financial experts will cover topics such as",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Digital Marketing",
+        "content": "Overview of digital marketing channels and strategies."
+      },
+      {
+        "week": 2,
+        "topic": "Search Engine Optimization (SEO)",
+        "content": "Fundamentals of SEO and optimizing website content."
+      }
+    ],
+    "students": [
+      {
+        "id": 114,
+        "name": "Nathan Clark",
+        "email": "nathan@example.com"
+      },
+      {
+        "id": 115,
+        "name": "Olivia Martinez",
+        "email": "olivia@example.com"
+      }
+    ]
+  },
+
+  {
+    "category": "Webinars",
+    "id": "9",
+    "img": "https://i.ibb.co/Mn5tBGk/Data-Analytics.png",
+    "title": " iOS App Development with Swift",
+    "instructor": "Andrew White",
+    "enrollmentStatus": "Open",
+    "price": 399,
+    "duration": "10 weeks",
+  "schedule": "Saturdays, 9:00 AM - 12:00 PM",
+  "location": "Online",
+  "prerequisites": ["Basic programming knowledge", "Familiarity with macOS"],
+    "rating": 4.3,
+    "description": "Become a iOS App Development with Swift expert with our Certificate in iOS App Development with Swift program. Data-driven decision-making is crucial in today's business world, and this program will equip you with the skills to collect, analyze, and interpret data effectively. Learn data visualization, statistical analysis, and data mining techniques. Apply your knowledge to real-world projects and solve complex business problems. Whether you're in business, finance, or healthcare, iOS App Development with Swift skills are in high demand, and this certificate will help you excel in your career.",
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to iOS Development",
+        "content": "Overview of iOS platform and development environment setup."
+      },
+      {
+        "week": 2,
+        "topic": "Swift Programming Basics",
+        "content": "Introduction to Swift syntax and programming concepts."
+      }
+    ],
+    "students": [
+      {
+        "id": 116,
+        "name": "Peter Wilson",
+        "email": "peter@example.com"
+      },
+      {
+        "id": 117,
+        "name": "Quinn Baker",
+        "email": "quinn@example.com"
+      },
+      {
+        "id": 118,
+        "name": "Rachel Green",
+        "email": "rachel@example.com"
+      },
+      {
+        "id": 119,
+        "name": "Samuel Thompson",
+        "email": "samuel@example.com"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "img": "https://i.ibb.co/mDywVb6/author1jpg.jpg",
+      "name": "John Doe",
+      "profession": "Author"
+    },
+    {
+      "id": "2",
+      "img": "https://i.ibb.co/RT5Svg4/author4.jpg",
+      "name": "Jane Smith",
+      "profession": "Writer"
+    },
+    {
+      "id": "3",
+      "img": "https://i.ibb.co/4JYdKmf/author3.jpg",
+      "name": "David Johnson",
+      "profession": "Poet"
+    },
+    {
+      "id": "4",
+      "img": "https://i.ibb.co/7RJJdJS/author9.jpg",
+      "name": "Emily Brown",
+      "profession": "Journalist"
+    },
+    {
+      "id": "5",
+      "img": "https://i.ibb.co/hD0Mcgp/author6.jpg",
+      "name": "Michael Davis",
+      "profession": "Historian"
+    },
+    {
+      "id": "6",
+      "img": "https://i.ibb.co/mJppMW4/author5.jpg",
+      "name": "Sarah White",
+      "profession": "Novelist"
+    },
+    {
+      "id": "7",
+      "img": "https://i.ibb.co/1TswrNh/author7.jpg",
+      "name": "Alex Turner",
+      "profession": "Screenwriter"
+    },
+    {
+      "id": "8",
+      "img": "https://i.ibb.co/DK1FwJx/author8.jpg",
+      "name": "Linda Jackson",
+      "profession": "Biographer"
+    }
+  ]
