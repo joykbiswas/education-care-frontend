@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import About from "../Component/Page/About/About";
 import PricingPlans from "../Component/Page/PricingPlans/PricingPlans";
 import ErrorPage from "../Component/Page/ErrorPage/ErrorPage";
+import Dashboard from "../Component/Page/Dashboard/Dashboard";
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         {
           path:"/about",
           element:<PrivateRoute><About></About></PrivateRoute>
+        },
+        {
+          path:"/dashboard",
+          element:<Dashboard></Dashboard>
         },
         {
           path:"pricing",
