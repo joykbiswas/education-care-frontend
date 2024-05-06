@@ -7,6 +7,7 @@ import { IoEarthOutline } from "react-icons/io5";
 import Sponcer from "../Sponcer/Sponcer";
 import Footer from "../Footer/Footer";
 import Swal from "sweetalert2";
+import { useState } from "react";
 
 const CourseDetails = () => {
   const courseDetails = useLoaderData();
@@ -24,8 +25,8 @@ const CourseDetails = () => {
     prerequisites,
     syllabus,
   } = courseDetails;
-  console.log(courseDetails);
 
+  const [enrollmentMessage, setEnrollmentMessage] = useState("");
   const handleAddCourse = () =>{
     fetch('http://localhost:5000/myCourse',{
             method:'POST',
@@ -40,12 +41,21 @@ const CourseDetails = () => {
             if(data.insertedId){
               Swal.fire({
                 title: 'success!',
-                text: 'your course added successfully',
+                text: ' your course added successfully',
                 icon: 'success',
                 confirmButtonText: 'Done'
               })
+            } else {
+              setEnrollmentMessage(data.message);
+              Swal.fire({
+                icon: "error",
+                title: `${data.message}`,
+               
+              });
+             
             }
         })
+        .catch(error=>{console.error(error)})
   }
   return (
     <div>
@@ -112,7 +122,9 @@ const CourseDetails = () => {
              
             </div>
             <p className="hover:text-sky-500">{description}</p>
-
+            {enrollmentMessage && (
+              <p className="text-red-500">{enrollmentMessage}</p>
+            )}
             <button onClick={handleAddCourse} className="group relative flex w-36 items-center rounded-lg border-2 border-sky-400 p-4 text-black"><span>Enroll Now</span><span className="absolute right-3 box-content flex w-1/6 justify-center rounded-md bg-sky-400 duration-300 group-hover:w-5/6"><svg viewBox="0 0 24 24" fill="none" className="w-10" xmlns="http://www.w3.org/2000/svg"><g strokeWidth="0"></g><g strokeLinecap="round" strokeLinejoin="round"></g><g><path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></g></svg></span></button>
 
           </div>

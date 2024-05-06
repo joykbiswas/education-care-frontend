@@ -43,15 +43,15 @@ const router = createBrowserRouter([
         },
         {
           path:"/about",
-          element:<PrivateRoute><About></About></PrivateRoute>
+          element:<About></About>
         },
         {
           path:"/dashboard",
-          element:<Dashboard></Dashboard>
+          element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
         },
         {
           path:"pricing",
-          element:<PrivateRoute><PricingPlans></PricingPlans></PrivateRoute>,
+          element:<PricingPlans></PricingPlans>,
           loader:()=>fetch('/price.json')
         }
       ]
