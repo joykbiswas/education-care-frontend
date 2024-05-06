@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         {
           path:"/course/:id",
           element:<PrivateRoute><CourseDetails></CourseDetails></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/course/${params.id}`)
+          loader: ({params}) => fetch(`https://education-care-backend-jfd8zd519-joys-projects-3bf6e672.vercel.app/course/${params.id}`)
         },
         {
           path:"/",

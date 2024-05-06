@@ -28,7 +28,7 @@ const CourseDetails = () => {
 
   const [enrollmentMessage, setEnrollmentMessage] = useState("");
   const handleAddCourse = () =>{
-    fetch('http://localhost:5000/myCourse',{
+    fetch('https://education-care-backend-jfd8zd519-joys-projects-3bf6e672.vercel.app/myCourse',{
             method:'POST',
             headers:{
               'content-type':'application/json'
