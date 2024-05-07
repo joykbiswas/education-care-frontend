@@ -17,11 +17,11 @@ const Home = () => {
     const [educations, setEducations] = useState([]);
     const [loading, setLoading] = useState(true)
   useEffect(() => {
-    fetch("https://education-care-backend-jfd8zd519-joys-projects-3bf6e672.vercel.app/course")
+    fetch("https://education-care-backend.vercel.app/course")
       .then((res) => res.json())
       .then(data =>{
         setEducations(data)
-        setLoading(false)
+        setLoading(false) 
       });
   }, []);
     console.log(educations);

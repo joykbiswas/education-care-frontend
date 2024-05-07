@@ -6,7 +6,7 @@ const Dashboard = () => {
   const [course, setCourse] = useState([]);
 
   useEffect(() => {
-    fetch("https://education-care-backend-jfd8zd519-joys-projects-3bf6e672.vercel.app/myCourse")
+    fetch("https://education-care-backend.vercel.app/myCourse")
       .then((res) => res.json())
       .then((data) => {
         setCourse(data);
